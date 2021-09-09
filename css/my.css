@@ -150,3 +150,30 @@
     width: 216px;
     margin-right: calc(100% - 440px);
 }
+
+
+
+
+
+
+
+
+/* --------------------------------------- Product------------------------------------------------- */
+
+.category-product{
+    padding-top: 20px;
+    list-style-type: none;
+    padding-left: 0px;
+
+}
+.category-product li{
+    margin-bottom: 15px;
+   cursor: pointer;
+}
+.category-product li:hover{
+    color: rgb(175, 40, 30);
+    
+}
+.product-container .tm-gallery-item{
+    
+}
