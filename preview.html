@@ -4,35 +4,23 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--
 
-Template 2092 Shelf
-
-http://www.tooplate.com/view/2092-shelf
-
--->
-    <title>SHELF - Your Online Bookstore</title>
+    <title>CircleShop</title>
 
     <!-- load stylesheets -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">                <!-- Font Awesome -->
     <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
     <link rel="stylesheet" href="css/tooplate-style.css">                                   <!-- Templatemo style -->
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-          <![endif]-->
+    <link rel="stylesheet" href="css/my.css">    
 </head>
 
     <body>
         
         <div class="container">
             <header class="tm-site-header">
-                <h1 class="tm-site-name">Shelf</h1>
-                <p class="tm-site-description">Your Online Bookstore</p>
+                <h1 class="tm-site-name">CircleShop</h1>
+                <p class="tm-site-description">Expand your knowledge</p>
                 
                 <nav class="navbar navbar-expand-md tm-main-nav-container">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#tmMainNav" aria-controls="tmMainNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,36 +29,37 @@ http://www.tooplate.com/view/2092-shelf
 
                     <div class="collapse navbar-collapse tm-main-nav" id="tmMainNav">
                         <ul class="nav nav-fill tm-main-nav-ul">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link active" href="#">Catalogs</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Awards</a></li>
-                            <li class="nav-item"><a class="nav-link" href="team.html">Our Team</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                            <li class="nav-item"><a class="nav-link " href="index.html">Trang chủ</a></li>
+                            <li class="nav-item"><a class="nav-link " href="product.html">Sản Phẩm</a></li>
+                            <li class="nav-item"><a class="nav-link " href="cart.html">Giỏ Hàng</a></li>
+                            <li class="nav-item"><a class="nav-link " href="order.html">Đơn Hàng</a></li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="">Our Team</a></li> -->
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Liên Hệ</a></li>
                         </ul>
                     </div>    
                 </nav>
                 
             </header>
             
-            <div class="tm-main-content no-pad-b">
+            <div class="tm-main-content no-pad-b preview-product-container">
                     
                 <section class="row tm-item-preview">
                     <div class="col-md-6 col-sm-12 mb-md-0 mb-5">
-                        <img src="img/image-05-preview.jpg" alt="Image" class="img-fluid tm-img-center-sm">
+                        <img src="img/image-05-preview.jpg" alt="Image" class="img-fluid tm-img-center-sm img-product-preview">
                     </div>
                     <div class="col-md-6 col-sm-12">
-                        <h2 class="tm-blue-text tm-margin-b-p">Mauris cursus turpis</h2>
+                        <h2 class="tm-blue-text tm-margin-b-p">Tên sách</h2>
+                        <p class="tm-blue-text tm-margin-b-s">Tác giả</p>
+                        <p class="tm-blue-text tm-margin-b-s">Giá</p>
+                        <p class="tm-blue-text tm-margin-b-s">Số lượng: </p>
+                        <p class="tm-blue-text tm-margin-b-s">Mô tả: </p>
                         <p class="tm-margin-b-p">Suspendisse suscipit tortor eu nunc fermentum pellentesque. Donec vaius diam ut velit porttitor accumsan. Cras ac porttitor urna, in vehicula diam. Ut ultricies leo dapibus, facilisis justo vel, dignissim tortor.</p>
-                        <p class="tm-margin-b-p">Ut iaculis vel libero a auctor. Integer arcu orci, vaius id velit sed, lacinia venenatis felis. Integer in facilisis tortor. Vivamus facilisis mattis finibus. Vestibulum in aliquam nisl. Nunc pretium elementum posuere.</p>
-                        <p class="tm-margin-b-p">Nunc vulputate placerat pulvinar. Integer ornare, enim et vestibulum mattis, dolor lacus congue sapien, eget tempor sapien est ut mauris.</p>
-                        <p class="tm-blue-text tm-margin-b-s">Categories: <a href="#" class="tm-blue-text">New Story</a>, <a href="#" class="tm-blue-text">Epic</a>, <a href="#" class="tm-blue-text">Popular</a></p>
-                        <p class="tm-blue-text tm-margin-b-s">Views: 10,890</p>
-                        <p class="tm-blue-text tm-margin-b">Rating: <img src="img/star.png" alt="Star image"> <img src="img/star.png" alt="Star image"> <img src="img/star.png" alt="Star image"> <img src="img/star.png" alt="Star image"></p>
-                        <a href="#" class="tm-btn tm-btn-gray tm-margin-r-20 tm-margin-b-s">Preview</a><a href="#" class="tm-btn tm-btn-blue">Download</a>
+                        <a href="product.html" class="tm-btn tm-btn-gray tm-margin-r-20 tm-margin-b-s">Quay Lại</a>
+                        <a href="#" class="tm-btn tm-btn-blue btn-add-cart">Thêm Vào giỏ hàng</a>
                     </div>
                 </section>
 
-                <div class="tm-gallery no-pad-b">
+                <!-- <div class="tm-gallery no-pad-b">
                     <div class="row">
                         <figure class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item mb-5">
                             <a href="preview.html">
@@ -105,14 +94,15 @@ http://www.tooplate.com/view/2092-shelf
                             </a>
                         </figure>
                     </div>   
-                </div>                    
+                </div>                     -->
                             
             </div>
 
             <footer>
-                Copyright &copy; <span class="tm-current-year">2018</span> Shelf Company 
+                Thank you!
+                <!-- Copyright &copy; <span class="tm-current-year">2018</span> Shelf Company 
                 
-                - Designed by Tooplate
+                - Designed by Tooplate -->
             </footer>    
         </div>
         

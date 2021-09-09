@@ -1,0 +1,152 @@
+
+/* --------------------------------------- preview------------------------------------------------- */
+.btn-add-cart{
+    width: 216px;
+}
+.img-product-preview{
+    height: 520px;
+    width: 100%;
+}
+.preview-product-container{
+    margin-bottom: 75px;
+}
+
+
+/* --------------------------------------- cart------------------------------------------------- */
+
+.cart-container{
+
+
+}
+
+.cart-item{
+    border: 1px solid #6c6c6c;
+    border-bottom: none;
+    width: 100%;
+}
+
+.cart-item:last-child{
+    border: 1px solid #6c6c6c;
+    margin-bottom: 15px;
+}
+.cart-item-col{
+    display: inline-block;
+    padding: 15px 20px;
+
+
+}
+.img-cart-item{
+    width: 60px;
+    height: 80px;
+}
+
+.cart-item-col-img{
+    width: 10%;
+}
+
+.cart-item-col-nameP{
+    width: 30%;
+}
+.cart-item-col-priceP{
+    width: 15%;
+}
+.cart-item-col-totalPriceP{
+    width: 20%;
+}
+
+.cart-item-col-numberP{
+    width: 15%;
+    text-align: center;
+}
+.cart-item-col-deleteP{
+    width: 5%;
+}
+
+.cart-item-col-deleteP{
+    width: 5%;
+}
+.cart-item-header{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.total_cart_bill{
+    padding-right: 35px;
+    text-align: right;
+}
+.total_cart_bill_number{
+    color: red;
+    
+}
+
+.cart-btn{
+    padding-top: 50px;
+    width: 100%;
+}
+.btn-buy-order{
+    width: 216px;
+    margin-right: calc(100% - 440px);
+}
+
+
+/* --------------------------------------- order------------------------------------------------- */
+
+.order-container{
+
+}
+.order-item{
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #ededed;
+    margin: 15px 0px;
+}
+.order-item-col{
+    display: inline-block;
+    padding: 20px 20px;
+
+}
+.order-item-col-code{
+    width: 12%;
+}
+.order-item-col-name{
+    width: 16%;
+}
+.order-item-col-ship{
+    width: 15%;
+}
+.order-item-col-totalPrice{
+    width: 15%;
+}
+.order-item-col-date{
+    width: 13%;
+}
+.order-item-col-status{
+    width: 14%;
+}
+.order-item-col-detail{
+    
+}
+
+.order-item{
+    font-size: 16px;
+}
+.order-item:hover{
+    background-color: rgb(40, 122, 122);
+    color: #ededed;
+}
+.order-item-header .order-item-col{
+    padding: 0px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+
+
+.order-btn{
+    padding-top: 50px;
+    width: 100%;
+}
+.btn-buy-order{
+    width: 216px;
+    margin-right: calc(100% - 440px);
+}
