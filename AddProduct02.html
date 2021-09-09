@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addproduct 02</title>
+    <!-- <link rel="stylesheet" href="css/addProduct.css">  -->
+    <style type="text/css">
+        .title-ip{
+            color: rgb(30, 121, 121);
+            text-transform: capitalize;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        .btn-choose-img{
+            padding: 10px 20px;
+            background-color: transparent;
+            transition: none 0.3s;
+            text-transform: uppercase;
+            border: solid 1px rgb(30, 121, 121);
+        }
+        .btn-choose-img:hover{
+            background-color: rgb(30, 121, 121);
+            color: aliceblue;
+        }
+        .image_container {
+            height: 120px;
+            width: 120px;
+            overflow: hidden;
+            margin: 10px;
+            display: inline-block;
+            position: relative;
+        }
+        .image_container img {
+            height: 120px;
+            width: 120px;
+            object-fit: cover;
+        }
+        .image_container span {
+            top: -6px;
+            right: 8px;
+            color: red;
+            font-size: 28px;
+            font-weight: normal;
+            cursor: pointer;
+            position: absolute;
+            top: 0;
+            left: 0;
+       
+        }
+   </style>  
+
+</head>
+<body>
+    <div class="">
+        <div class="">
+            <h4 class="title-ip">Image Product</h4>
+            <form class="form" action="#" method="post"   id="form-add-img-product">
+                <input type="file" name="Image" id="image-product-add" multiple="" class="d-none" onchange="image_select()" hidden>
+                <button class="btn-choose-img" type="button" onclick="document.getElementById('image-product-add').click()">Choose Images</button>
+            </form>
+       </div>
+       <div class="" id="image-product-add-review">
+            <!-- Image review-->    	  
+       </div>
+  </div>
+    <script src="js/addProduct02.js"></script>    
+</body>
+ 
+</html>

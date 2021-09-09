@@ -1,0 +1,33 @@
+
+
+.btn-add-img-product{
+    color: brown;
+    padding: 15px 20px;
+    border: solid 1px rgb(22, 114, 114);
+    transition: all 0.3s;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.btn-add-img-product:hover{
+    background-color: rgb(22, 114, 114);
+    color: aliceblue;
+}
+
+#files-img-product-add-review{
+
+}
+
+#files-img-product-add-review .img-review-item{
+    display: inline-block;
+    /* width: 80px;
+    height: 80px; */
+    padding: 15px;
+    margin: 0px;
+}
+
+#files-img-product-add-review .img-review-item .thumbnail{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
